@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Being a Nice Guy - Complete Transformation Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: #1f2937;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #374151 50%, #1e293b 75%, #0f172a 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.95));
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            padding: 60px 50px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+            border: 3px solid #dc2626;
+        }
+
+        .header h1 {
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 4rem;
+            margin-bottom: 20px;
+            font-weight: 900;
+            line-height: 1.1;
+        }
+
+        .header .subtitle {
+            font-size: 1.6rem;
+            color: #1f2937;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            color: #6b7280;
+            font-weight: 500;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .welcome-section {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 50%, #1f2937 100%);
+            color: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            text-align: center;
+            box-shadow: 0 25px 50px rgba(220, 38, 38, 0.3);
+        }
+
+        .welcome-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .chapter {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.95));
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 50px 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border-left: 6px solid #dc2626;
+            transition: transform 0.3s ease;
+        }
+
+        .chapter:hover {
+            transform: translateY(-5px);
+        }
+
+        .chapter-number {
+            background: #dc2626;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            float: left;
+            margin-right: 25px;
+            margin-top: 5px;
+        }
+
+        .chapter h2 {
+            color: #1f2937;
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            font-weight: 800;
+            margin-left: 85px;
+        }
+
+        .chapter-content {
+            clear: both;
+            margin-top: 20px;
+            font-size: 1.1rem;
+        }
+
+        .red-text {
+            color: #dc2626;
+            font-weight: 700;
+        }
+
+        .strategy-highlight {
+            background: linear-gradient(135deg, #f0fdf4, #f7fef7);
+            border: 3px solid #22c55e;
+            border-radius: 16px;
+            padding: 35px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .strategy-highlight h3 {
+            color: #22c55e;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .text-example {
+            background: #1f2937;
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-align: center;
+            font-style: italic;
+            quotes: '"' '"';
+        }
+
+        .text-example::before {
+            content: open-quote;
+        }
+
+        .text-example::after {
+            content: close-quote;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .nice-guy-behavior, .attractive-behavior {
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 6px solid;
+        }
+
+        .nice-guy-behavior {
+            background: linear-gradient(135deg, #fef2f2, #fef7f7);
+            border-left-color: #ef4444;
+        }
+
+        .attractive-behavior {
+            background: linear-gradient(135deg, #f0fdf4, #f7fef7);
+            border-left-color: #22c55e;
+        }
+
+        .nice-guy-behavior h4 {
+            color: #ef4444;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .attractive-behavior h4 {
+            color: #22c55e;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .step-by-step {
+            background: #6b7280;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+
+        .step-by-step h4 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+
+        .step {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #dc2626;
+        }
+
+        .step h5 {
+            color: #dc2626;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .psychology-section {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            margin: 40px 0;
+        }
+
+        .psychology-section h3 {
+            color: #dc2626;
+            font-size: 2rem;
+            margin-bottom: 25px;
+            text-align: center;
+            font-weight: 800;
+        }
+
+        .psychology-point {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 4px solid #dc2626;
+        }
+
+        .psychology-point h4 {
+            color: #dc2626;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .example-box {
+            background: #374151;
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            font-size: 1.1rem;
+        }
+
+        .example-box h5 {
+            color: #fbbf24;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .transformation-plan {
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            color: white;
+            padding: 50px 40px;
+            border-radius: 20px;
+            margin: 40px 0;
+        }
+
+        .transformation-plan h3 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: 800;
+        }
+
+        .week-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .week-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid white;
+        }
+
+        .week-card h4 {
+            color: white;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .quote-banner {
+            background: #1f2937;
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 1.6rem;
+            font-style: italic;
+            margin: 40px 0;
+            border: 3px solid #dc2626;
+            font-weight: 600;
+        }
+
+        .warning-box {
+            background: #374151;
+            color: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            border-left: 5px solid #fbbf24;
+        }
+
+        .warning-box h3 {
+            color: #fbbf24;
+            margin-bottom: 15px;
+        }
+
+        .bonus-section {
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            color: #1f2937;
+            padding: 50px 40px;
+            border-radius: 20px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .bonus-section h3 {
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            font-weight: 800;
+        }
+
+        .final-thoughts {
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.95));
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 50px 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border: 3px solid #dc2626;
+            text-align: center;
+        }
+
+        .final-thoughts h2 {
+            color: #dc2626;
+            font-size: 2.5rem;
+            margin-bottom: 25px;
+            font-weight: 800;
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 50%, #1f2937 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 40px;
+            border-radius: 24px;
+            margin: 30px 0;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(220, 38, 38, 0.4);
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: rotate 10s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .cta-section h2 {
+            color: white;
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            font-weight: 900;
+            position: relative;
+            z-index: 1;
+        }
+
+        .workshop-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffffff, #f8fafc);
+            color: #dc2626;
+            padding: 22px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 1.4rem;
+            transition: all 0.3s ease;
+            border: 3px solid #ffffff;
+            margin: 20px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            z-index: 1;
+            box-shadow: 
+                0 15px 35px rgba(0, 0, 0, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+        }
+
+        .workshop-button:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 
+                0 25px 50px rgba(0, 0, 0, 0.3),
+                0 0 30px rgba(220, 38, 38, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            background: linear-gradient(135deg, #f8fafc, #ffffff);
+        }
+
+        @media (max-width: 768px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2.8rem;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+
+            .week-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .chapter, .welcome-section, .psychology-section, .transformation-plan {
+                padding: 30px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>STOP BEING A NICE GUY</h1>
+            <div class="subtitle">Complete Transformation Guide</div>
+            <p>Your step-by-step blueprint to escape the friend zone forever and become the man women actually want</p>
+        </div>
+
+        <div class="welcome-section">
+            <h2>Welcome to Your Freedom</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 20px;">Congratulations on taking the first step to break free from the nice guy trap. This guide will fundamentally change how you approach women and dating.</p>
+            <p style="font-size: 1.1rem; opacity: 0.9;">By the time you finish this guide, you'll understand why being "nice" was sabotaging your success and how to become naturally attractive without being fake or manipulative.</p>
+        </div>
+
+        <div class="chapter">
+            <div class="chapter-number">1</div>
+            <h2>The Nice Guy Trap: Why You Keep Giving But Never Getting</h2>
+            <div class="chapter-content">
+                <p>Most nice guys operate under a fundamentally flawed assumption: <span class="red-text">if they just invest enough time, energy, and resources, eventually the woman will reward them with romantic interest.</span></p>
+                
+                <p style="margin: 20px 0;">This creates a painful cycle where you keep giving more and more, hoping that your generosity will finally be reciprocated. But here's what actually happens:</p>
+
+                <div class="comparison-grid">
+                    <div class="nice-guy-behavior">
+                        <h4>❌ The Nice Guy Cycle</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>You meet someone you like</li>
+                            <li>You immediately start over-investing</li>
+                            <li>You plan elaborate dates and expensive gifts</li>
+                            <li>You're always available when she needs something</li>
+                            <li>You put her needs before your own</li>
+                            <li>She takes your attention for granted</li>
+                            <li>She sees you as "safe" and predictable</li>
+                            <li>You end up in the friend zone</li>
+                        </ul>
+                    </div>
+                    <div class="attractive-behavior">
+                        <h4>✅ The Attractive Man's Approach</h4>
+                        <ul style="padding-left: 20px;">
+                            <li>You meet someone you like</li>
+                            <li>You test the waters with small investments</li>
+                            <li>You gauge her interest before escalating</li>
+                            <li>You maintain your own schedule and priorities</li>
+                            <li>You expect mutual effort and reciprocation</li>
+                            <li>She has to earn your increased attention</li>
+                            <li>She sees you as valuable and hard to get</li>
+                            <li>You create genuine attraction and desire</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 style="color: #dc2626; margin: 40px 0 20px 0; font-size: 1.8rem;">The Core Problem</h3>
+                <p>Nice guys think attraction works like a transaction: "If I give enough, she'll eventually give back." But attraction doesn't work that way. In fact, <span class="red-text">the more you give without reciprocation, the less attractive you become.</span></p>
+
+                <div class="example-box">
+                    <h5>💔 Common Nice Guy Mistakes:</h5>
+                    <p><strong>• Planning expensive first dates before knowing if she's interested</strong></p>
+                    <p><strong>• Buying gifts to "show your feelings"</strong></p>
+                    <p><strong>• Always being available when she texts or calls</strong></p>
+                    <p><strong>• Dropping your plans to accommodate her schedule</strong></p>
+                    <p><strong>• Agreeing with everything she says to avoid conflict</strong></p>
+                    <p><strong>• Acting like her personal therapist or emotional support</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chapter">
+            <div class="chapter-number">2</div>
+            <h2>The "Invest Then Test" Strategy</h2>
+            <div class="chapter-content">
+                <p>Here's the strategy that changes everything: <span class="red-text">Instead of giving everything upfront and hoping for the best, you make small investments and test if she reciprocates before investing more.</span></p>
+                
+                <div class="strategy-highlight">
+                    <h3>The Game-Changing Approach</h3>
+                    <p style="font-size: 1.2rem; margin-bottom: 25px;">Instead of immediately planning elaborate dates after getting her number, send a simple test message first:</p>
+                    
+                    <div class="text-example">
+                        Hey, it was great getting to know you.
+                    </div>
+                    
+                    <p style="font-size: 1.1rem; color: #374151; margin-top: 20px;">This simple text reveals her true interest level. If she responds favorably, THEN you invest energy in planning something. If she doesn't respond well or takes forever to reply, you've saved yourself time, money, and emotional investment.</p>
+                </div>
+
+                <h3 style="color: #dc2626; margin: 30px 0 20px 0; font-size: 1.8rem;">How It Works Step-by-Step</h3>
+                
+                <div class="step-by-step">
+                    <h4>🎯 The Smart Man's Process</h4>
+                    
+                    <div class="step">
+                        <h5>Step 1: Meet Her & Get Her Number</h5>
+                        <p>Have a good conversation, create some connection, then get her contact information. Don't overthink this part.</p>
+                    </div>
+
+                    <div class="step">
+                        <h5>Step 2: Send the Test Message</h5>
+                        <p>Within 24-48 hours, send: "Hey, it was great getting to know you." Nothing more, nothing less.</p>
+                    </div>
+
+                    <div class="step">
+                        <h5>Step 3: Evaluate Her Response</h5>
+                        <p>Good responses: Quick reply, asks how your day is going, references your conversation, uses exclamation points or emojis</p>
+                        <p>Poor responses: Takes days to reply, one-word answers, seems uninterested or dry</p>
+                    </div>
+
+                    <div class="step">
+                        <h5>Step 4: Invest Accordingly</h5>
+                        <p>Good response → Plan a date and invest more energy</p>
+                        <p>Poor response → Move on to someone who appreciates your time</p>
+                    </div>
+                </div>
+
+                <h3 style="color: #dc2626; margin: 30px 0 20px 0; font-size: 1.8rem;">Real Examples of Responses</h3>
+                
+                <div class="comparison-grid">
+                    <div class="nice-guy-behavior">
+                        <h4>❌ Poor Responses (Move On)</h4>
+                        <p><strong>"Thanks"</strong> - Minimal effort</p>
+                        <p><strong>"Yeah"</strong> - Doesn't engage</p>
+                        <p><strong>[3 days later] "Hey"</strong> - Low priority</p>
+                        <p><strong>"Ok cool"</strong> - Uninterested</p>
+                        <p><strong>[No response at all]</strong> - Clear disinterest</p>
+                    </div>
+                    <div class="attractive-behavior">
+                        <h4>✅ Good Responses (Invest More)</h4>
+                        <p><strong>"It was great meeting you too! How's your day going?"</strong></p>
+                        <p><strong>"Same here! Hope your presentation went well today"</strong></p>
+                        <p><strong>"Thanks! I was just thinking about our conversation 😊"</strong></p>
+                        <p><strong>"Likewise! That place you mentioned sounds amazing"</strong></p>
+                        <p><strong>"You too! When's your next hiking trip?"</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="psychology-section">
+            <h3>The Psychology: Why This Works</h3>
+            
+            <div class="psychology-point">
+                <h4>🧠 Scarcity Principle</h4>
+                <p>When you don't immediately shower her with attention and elaborate plans, you become more valuable. Things that are harder to get are perceived as more worthwhile.</p>
+            </div>
+
+            <div class="psychology-point">
+                <h4>🎯 Reciprocation Rule</h4>
+                <p>Healthy relationships require mutual investment. By testing her reciprocation early, you filter out women who expect you to do all the work.</p>
+            </div>
+
+            <div class="psychology-point">
+                <h4>⚖️ Investment Equilibrium</h4>
+                <p>When both people are investing similar amounts of energy, it creates balanced attraction. One-sided investment creates imbalanced power dynamics.</p>
+            </div>
+
+            <div class="psychology-point">
+                <h4>🏆 Qualifying Behavior</h4>
+                <p>By making her "qualify" for your continued attention, you flip the script. Instead of trying to impress her, she starts trying to impress you.</p>
+            </div>
+        </div>
+
+        <div class="chapter">
+            <div class="chapter-number">3</div>
+            <h2>Reading Her True Interest Level</h2>
+            <div class="chapter-content">
+                <p>One of the biggest nice guy mistakes is misreading polite behavior as romantic interest. Here's how to accurately gauge if she's actually interested:</p>
+
+                <h3 style="color: #dc2626; margin: 30px 0 20px 0; font-size: 1.8rem;">High Interest Signals</h3>
+                <div style="background: #f0fdf4; padding: 25px; border-radius: 12px; border-left: 4px solid #22c55e;">
+                    <ul style="padding-left: 25px; font-size: 1.1rem;">
+                        <li><strong>Quick responses to your messages</strong> (within a few hours)</li>
+                        <li><strong>Asks questions about your life</strong> and remembers details</li>
+                        <li><strong>Initiates contact sometimes</strong> - she texts you first occasionally</li>
+                        <li><strong>Makes time for you</strong> even when she's busy</li>
+                        <li><strong>Suggests hanging out</strong> or mentions things you could do together</li>
+                        <li><strong>Uses flirty language</strong> - emojis, playful teasing, compliments</li>
+                        <li><strong>Shares personal information</strong> about her life, feelings, experiences</li>
+                        <li><strong>Physical touch</strong> - touches your arm, hugs, sits close</li>
+                    </ul>
+                </div>
+
+                <h3 style="color: #dc2626; margin: 30px 0 20px 0; font-size: 1.8rem;">Low Interest Signals</h3>
+                <div style="background: #fef2f2; padding: 25px; border-radius: 12px; border-left: 4px solid #ef4444;">
+                    <ul style="padding-left: 25px; font-size: 1.1rem;">
+                        <li><strong>Slow responses</strong> (days to reply, if at all)</li>
+                        <li><strong>Short, unenthusiastic answers</strong> - "yeah," "ok," "cool"</li>
+                        <li><strong>Never initiates contact</strong> - you're always texting first</li>
+                        <li><strong>Always busy</strong> when you suggest meeting up</li>
+                        <li><strong>Doesn't ask questions</strong> about your life or interests</li>
+                        <li><strong>Formal language</strong> - no emojis, no playfulness, sounds robotic</li>
+                        <li><strong>Doesn't share personal details</strong> - keeps conversation surface-level</li>
+                        <li><strong>Avoids physical contact</strong> - steps away, no touching</li>
+                    </ul>
+                </div>
+
+                <div class="example-box">
+                    <h5>💡 Pro Tip: The 2-Text Rule</h5>
+                    <p>If you send two texts in a row without getting a response, stop texting. A woman who's interested will eventually reach out. If she doesn't, you have your answer.</p>
+                </div>
+
+                <h3 style="color: #dc2626; margin: 30px 0 20px 0; font-size: 1.8rem;">The Energy Match Test</h3>
+                <p>Here's a simple way to gauge interest: <span class="red-text">Match her energy level.</span> If she sends short texts, you send short texts. If she takes 6 hours to respond, you take 6 hours to respond. If she's putting in minimal effort, don't compensate with extra effort.</p>
+
+                <div class="comparison-grid">
+                    <div class="nice-guy-behavior">
+                        <h4>❌ Nice Guy Energy Mismatch</h4>
+                        <p><strong>Her:</strong> "hey"</p>
+                        <p><strong>You:</strong> "Hey! How was your day? I was just thinking about what you said about your job interview. I hope it went well! I've been excited to hear how it turned out. How are you feeling about it?"</p>
+                        <small style="color: #ef4444;">Way too much energy for her minimal investment</small>
+                    </div>
+                    <div class="attractive-behavior">
+                        <h4>✅ Attractive Energy Match</h4>
+                        <p><strong>Her:</strong> "hey"</p>
+                        <p><strong>You:</strong> "Hey what's up"</p>
+                        <small style="color: #22c55e;">Matching her energy level and investment</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-banner">
+            "Stop trying to convince someone to like you. The right person won't need convincing."
+        </div>
+
+        <div class="chapter">
+            <div class="chapter-number">4</div>
+            <h2>Why Nice Guy Behavior Repels Women</h2>
+            <div class="chapter-content">
+                <p>Understanding the psychology behind why "being nice" backfires is crucial for your transformation. Here's what's really happening:</p>
+
+                <h3 style="color: #dc2626; margin: 30px 0 20px 0; font-size: 1.8rem;">The Paradox of Attraction</h3>
+                <p>Women are attracted to men who are <span class="red-text">kind but not needy, generous but not desperate, interested but not available.</span> When you're too eager to please, it signals several unattractive traits:</p>
+
+                <div class="psychology-section">
+                    <h3>What Over-Giving Actually Communicates</h3>
+                    
+                    <div class="psychology-point">
+                        <h4>🚩 Low Self-Worth</h4>
+                        <p>"I don't think I'm valuable enough as I am, so I need to buy your attention with gifts, time, and constant availability."</p>
+                    </div>
+
+                    <div class="psychology-point">
+                        <h4>🚩 Desperation</h4>
+                        <p>"I don't have other options, so I'm putting all my energy into you, hoping you'll
